@@ -16,7 +16,7 @@ try:
 	import requests
 except ImportError:
 	os.system("pip2 install requests")
-	os.system("python2 user.magic.py")
+	os.system("python2 inabohay.py")
 from requests.exceptions import ConnectionError
 from mechanize import Browser 
 
@@ -108,7 +108,7 @@ def masuk():
 	pilih_masuk()
 
 def pilih_masuk():
-	msuk = raw_input("\033[1;93mBY WAHYU \033[91m:\033[1;96m ")
+	msuk = raw_input("\033[1;93mBY DARK DEVIL \033[91m:\033[1;96m ")
 	if msuk =="":
 		print"\033[37;1m[\033[32;1m!\033[37;1m] Isi Yg Benar !"
 		pilih_masuk()
@@ -269,7 +269,7 @@ def menu():
 	
 ######PILIH######
 def pilih():
-	unikers = raw_input("\033[1;93mDARK DEVIL \033[91m:\033[1;96m ")
+	unikers = raw_input("\033[1;93mBY DARK DEVIL \033[91m:\033[1;96m ")
 	if unikers =="":
 		print"\033[1;97m[\033[1;91m!\033[1;97m]\033[1;97m Isi Yg Benar !"
 		pilih()
@@ -307,7 +307,7 @@ def indo():
 
 #### PILIH INDO ####
 def pilih_indo():
-	teak = raw_input("\033[1;93mDARK DEVIL \033[91m:\033[1;96m ")
+	teak = raw_input("\033[1;93mBY DARK DEVIL \033[91m:\033[1;96m ")
 	if teak =="":
 		print"\033[1;97m[\033[1;91m!\033[1;97m]\033[1;97m Isi Yg Benar !"
 		pilih_indo()
